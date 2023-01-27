@@ -1,0 +1,191 @@
+.logo{
+    font-size: 13px;
+    color: #FA6980;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background:#F6F8F9;
+}
+.header-div{
+    display:flex;
+    width: 500px;
+    justify-content:space-between;
+    height: 50px;
+    position: fixed;
+    z-index: 50;
+    margin-top: 20px;
+    
+    
+}
+
+.ul-item{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    font-size: 11px;
+    
+}
+
+.active-black{
+    font-weight: bold;
+}
+
+.section1{
+    padding-top: 50px;
+}
+
+.hed-box{
+    padding-top: 25px;
+    display: flex;
+    width: 1160px;
+    height: 410px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+.hedbox-txt{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    height: 15px;
+    
+}
+
+.trending-box{
+    height: 50px;
+    width: 1160px;
+}
+
+.min-box{
+     
+    width:360px;
+    height:350px;
+    background-color: #ffffff;
+
+
+
+}
+
+.img-minbox{
+    position: relative;
+    width: 360px;
+    height: 180px;
+    background-color: #FA6980;
+}
+
+.txt-minbox{
+    width: 360px;
+    height: 170px;
+    /* background-color: #FA6980; */
+}
+.img-txt{
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 280px;
+    
+}
+
+.txt-lorem{
+    padding-top: 66px;
+    padding-left: 40px;
+    color: #A6ADB4;
+
+
+}
+
+.img-time{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.txt-happ{
+    margin: 0 auto;
+    width: 1160px;
+    height: 20px;
+    /* background-color: #FA6980; */
+    margin-top: 58px;
+    margin-bottom: 40px;
+    
+}
+
+.secondmainbox{
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    width: 1160px;
+    height: 975px;
+    /* background-color: aqua; */
+    position: relative;
+   
+     
+    
+} 
+.childbox-left{
+    position: absolute;
+    display: flex;
+    width: 760px;
+    height: 900px;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.childbox-min-left{
+    position: relative;
+
+}
+
+.txt-morbi{
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    top: 194px;
+    left: 308px;
+}
+
+
+
+.image2{
+    width: 760px;
+    height:430px;
+
+}
+
+.childbox-right{
+
+    position: absolute;
+    width:360px;
+    height:896px;
+    /* background: #FA6980; */
+    top: 0;
+    right: 0;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+     
+    
+}
+
+.childbox-min-botom{
+    margin-top: 40px;
+}
+
+.minbox-right{
+
+    width: 360px;
+    height: 210px;
+    background-color: #1ad338;
+     
+}
